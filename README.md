@@ -7,20 +7,21 @@ focus-flow 是一个基于 [taro+vue3]构建的专注、待办工具。
 ## 安装
 
 ```bash
-npm install focus-flow
+pnpm install
 ```
 
 ## 使用
+```bash
+pnpm run dev:weapp
+```
 
-```jsx
-import React from 'react';
-import { FocusFlow } from 'focus-flow';
+## 功能
 
-const Flow = () => {
-  const elements = [
-    {
-      id: '1',
-      type: 'input', // input node
-      data: { label: 'Node 1' },
-      position: { x: 250, y: 5 },
-    },
+- [x] 待办事项
+- [x] 专注模式
+- [x] 专注历史
+- [x] 专注提醒
+- [x] 专注统计
+- [x] 专注目标
+- [x] 专注提醒
+- [x] 专注统计
