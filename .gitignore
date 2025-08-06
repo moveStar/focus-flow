@@ -6,4 +6,3 @@ node_modules/
 .DS_Store
 .swc
 *.local
-node_modules
